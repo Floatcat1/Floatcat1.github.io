@@ -1,0 +1,5 @@
+---
+title: photo
+noDate: 'true'
+---
+
