@@ -5,7 +5,8 @@
     width: 400px;
 }
 #veditor {
-    background-image: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/comment-bg.png);
+/*     background-image: url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/comment-bg.png); */
+    background-image: url(https://github.com/Floatcat1/blog_album/blob/master/zhaopian/commet.png?raw=true);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
@@ -2236,7 +2237,7 @@ h1.page-title.mb- {
     z-index:99;
     width:70px;
     height:900px;
-    background:url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.6/img/other/scroll.png) no-repeat center;
+    background:url(https://github.com/Floatcat1/blog_album/blob/master/zhaopian/scroll.png?raw=true) no-repeat center;
     background-size:contain;
     -webkit-transition:all .5s ease-in-out;
     transition:all .5s ease-in-out;
