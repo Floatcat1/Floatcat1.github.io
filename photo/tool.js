@@ -9,7 +9,12 @@
         let arr = [];
         (function iterator(index) {
             if (index == files.length) {
-                fs.writeFile("output.json", JSON.stringify(arr, null, "\t"));
+                fs.writeFile("output.json", JSON.stringify(arr, null, "\t"),function(err)
+                {
+                	if(err) throw err;
+                	console.log("1");
+                }
+                );
                 return;
             }
 
