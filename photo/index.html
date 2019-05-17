@@ -317,7 +317,10 @@
   
   <div id="content" class="site-content">
     <article class="post-item post-301 page type-page status-publish has-post-thumbnail hentry">
-      
+      <pre><code>&lt;link type=&quot;text/css&quot; href=&quot;/fancybox/jquery.fancybox.css&quot; rel=&quot;stylesheet&quot;&gt;
+  &lt;link type=&quot;text/css&quot; href=&quot;/css/ins.css&quot; rel=&quot;stylesheet&quot;&gt;
+&lt;div class=&quot;instagram&quot;&gt;&lt;section class=&quot;archives album&quot;&gt;&lt;ul class=&quot;img-box-ul&quot;&gt;&lt;/ul&gt;&lt;/section&gt;&lt;/div&gt;
+</code></pre><script src="/js/photo.js"></script>
       <!-- .entry-content -->
       
       <div style="text-align:center; width: 100%" class="social-share share-mobile" data-disabled="diandian, tencent"></div>
@@ -355,7 +358,7 @@
     <div class="ins-search-mask"></div>
     <div class="ins-search-container">
         <div class="ins-input-wrapper">
-            <input type="text" class="ins-search-input" placeholder="请输入关键词...">
+            <input type="text" class="ins-search-input" placeholder="Type something...">
             <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="ins-section-wrapper">
@@ -367,10 +370,10 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: '文章',
-            // PAGES: '页面',
-            CATEGORIES: '分类',
-            TAGS: '标签',
+            POSTS: 'Posts',
+            // PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
         },
         ROOT_URL: '/',
         CONTENT_URL: '/content.json',
