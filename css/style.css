@@ -7838,11 +7838,3 @@ td.hljs-ln-numbers {
 @media(max-width:1200px) {
     .toc {display: none;}
 }
-/* 
-
-.ImageGrid {width: 100%;max-width: 1040px;margin: 0 auto;text-align: center;}
-.card {width:160px;height:260px;overflow: hidden;}
-.ImageInCard {height:185px}
-.ImageInCard img {height:100%;width: auto;padding: 0 0 0 0; }
-.TextInCard {height:75;background-color: #fff;}
- */
